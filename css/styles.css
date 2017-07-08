@@ -1,0 +1,15 @@
+body {
+  background-color: #ffffff;
+}
+
+h1, hr, h2 {
+  color: #2A74BF;
+}
+
+li:hover .is-hover{
+  background-color: #2A74BF !important;
+  color: white !important;
+  z-index: 100;
+}
+
+/*# sourceMappingURL=styles.css.map */
