@@ -1,4 +1,6 @@
-a:hover .is-hover li{
-	background-color: #2A74BF;
-	color: red;
+@import "settings";
+
+li:hover .is-hover{
+	background-color: $blue !important;
+	color: white !important;
 }

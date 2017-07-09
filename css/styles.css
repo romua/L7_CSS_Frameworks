@@ -2,14 +2,62 @@ body {
   background-color: #ffffff;
 }
 
-h1, hr, h2 {
+h1, h2 {
   color: #2A74BF;
+  font-weight: bold;
+  letter-spacing: -1px;
 }
 
-li:hover .is-hover{
+.page-header {
+  border-bottom: 1px solid #2A74BF;
+}
+
+.footer {
+  background-color: #666;
+  color: white !important;
+  padding: 10px 0px 5px 10px;
+  font-weight: bold;
+}
+
+.navbar-default {
+  border-radius: 0;
+  width: 100%;
+  border-right: none;
+  border-left: none;
+}
+
+.thumbnail {
+  border-radius: 0;
+  padding: 2px;
+}
+
+div:nth-of-type(1) > .thumbnail {
+  background-color: #D7514C;
+}
+
+div:nth-of-type(2) > .thumbnail {
+  background-color: #2A74BF;
+}
+
+div:nth-of-type(3) > .thumbnail {
+  background-color: #D8C11D;
+}
+
+div:nth-of-type(4) > .thumbnail {
+  background-color: #4D944B;
+}
+
+.caption {
+  margin: 0;
+}
+.caption p {
+  margin: 0;
+  color: white;
+}
+
+li:hover .is-hover {
   background-color: #2A74BF !important;
   color: white !important;
-  z-index: 100;
 }
 
 /*# sourceMappingURL=styles.css.map */
